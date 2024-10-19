@@ -1,0 +1,118 @@
+
+body{
+    background-color: #000;
+    cursor: #fff;
+    
+}
+
+    
+
+header{
+    background-image: url(/myprojects/images/netflix\ img1..jpg);
+    height: 100vh;
+    box-sizing: border-box;
+    border: bottom 10px; 
+}
+
+
+    
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h1{
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    color: white;
+
+}
+.header-content h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+}
+.header-content p{
+    color: white;
+}
+/* .email{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden; */
+/* } */
+.email input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.color{
+   display: flex;
+   gap: 13%;
+   background-color: #000;
+   
+}
+.saf{
+    display: flex;
+    gap: 10%;
+    background-color: #000;
+}
+.col{
+    background-color: #000;
+    
+}
+#colors{
+    color: white;
+}
+
+/* .......fuooter...... */
+
+
+footer{
+    background-color: #000;
+    padding-top:40px ;
+}
+footer ul{
+    list-style-type:none ;
+
+}
+footer ul li{
+    color: #757575;
+    margin-bottom: 15px;
+
+}
+footer a{
+    text-decoration: none;
+    color: #757575;
+}
+footer a:hover{
+    color: #757575;
+    text-decoration: underline;
+}
+@media screen and (max-width : 1050px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#cont{
+    color: #757575;
+}
